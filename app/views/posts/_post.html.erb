@@ -1,0 +1,31 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+  Posted <%= time_tag post.created_at, nil, data: { local: "time-ago" } %>
+  </p>
+
+  <p>
+  <strong><%= pluralize post.comments.count, "comment Sayısı" %></strong>
+  </p>  
+
+  <div id="comments">
+    <% post.comments.each do |comment| %>
+      <div id="<%= dom_id(comment) %>">
+        <p><%= comment.content %></p>
+        <small>Yorum tarihi: <%= time_tag comment.created_at, nil, data: { local: "time-ago" } %></small>
+      </div>
+    <% end %>
+  </div>
+
+  <p>
+    <strong>Content:</strong>
+    <%= post.content %>
+  </p>
+
+  
+
+</div>
