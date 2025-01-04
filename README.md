@@ -18,41 +18,40 @@ Bu proje, Ruby on Rails kullanılarak geliştirilmiş bir blog platformudur. Kul
 ## Dosya Yapısı ve Açıklamalar:
 app/
 
-Uygulamanın ana kodlarının bulunduğu dizindir.
+-Uygulamanın ana kodlarının bulunduğu dizindir.
 
     controllers/:
     Kullanıcı isteklerini işleyen ve uygun yanıtları döndüren controller dosyalarını içerir.
 
-        posts_controller.rb: Blog gönderileriyle ilgili işlemler.
-        comments_controller.rb: Yorum işlemleri.
+        -posts_controller.rb: Blog gönderileriyle ilgili işlemler.
+        -comments_controller.rb: Yorum işlemleri.
     
     models/:
     Veritabanı ile iletişim kuran ve iş mantığını içeren modelleri barındırır.
-
-        post.rb: Blog gönderileriyle ilgili veri yapısı ve iş kuralları.
-        comment.rb: Yorumlarla ilgili veri yapısı ve iş kuralları.
-        user.rb: Kullanıcı doğrulama ve yetkilendirme.
+        -post.rb: Blog gönderileriyle ilgili veri yapısı ve iş kuralları.
+        -comment.rb: Yorumlarla ilgili veri yapısı ve iş kuralları.
+        -user.rb: Kullanıcı doğrulama ve yetkilendirme.
     
     views/:
     Kullanıcıya gösterilen HTML sayfalarını içerir.
-
-        posts/: Blog gönderileriyle ilgili sayfalar (index, show, new, edit).
-        comments/: Yorumlarla ilgili kısmi görünümler (partial files).
-        layouts/: Uygulama genelinde kullanılan ortak şablonlar (header, footer).
+        -posts/: Blog gönderileriyle ilgili sayfalar (index, show, new, edit).
+        -comments/: Yorumlarla ilgili kısmi görünümler (partial files).
+        -layouts/: Uygulama genelinde kullanılan ortak şablonlar (header, footer).
+        
 config/
 
-Uygulamanın yapılandırma ayarlarını içerir.
+-Uygulamanın yapılandırma ayarlarını içerir.
 
-    routes.rb: Uygulama içerisindeki URL yönlendirme ayarları.
+        -routes.rb: Uygulama içerisindeki URL yönlendirme ayarları.
 
 db/
 
-Veritabanı dosyalarını ve migration (veri tabanı şema değişiklikleri) dosyalarını içerir.
+-Veritabanı dosyalarını ve migration (veri tabanı şema değişiklikleri) dosyalarını içerir.
 
 
 public/
 
-Statik dosyalar (örneğin, görseller) bu dizinde tutulur.
+-Statik dosyalar (örneğin, görseller) bu dizinde tutulur.
 
 
 
