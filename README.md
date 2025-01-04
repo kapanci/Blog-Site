@@ -8,7 +8,12 @@ Bu proje, Ruby on Rails kullanılarak geliştirilmiş bir blog platformudur. Kul
     -Blog gönderilerine yorum ekleme.
     -Sadece gönderi sahibi veya yorum sahibi işlemleri gerçekleştirebilir (yetkilendirme).
 
-
+## Kullanılan Teknolojiler
+        -Ruby 3.x
+    -Ruby on Rails 7.x
+    -SQLlite (Veritabanı)
+    -HTML, CSS, Bootstrap (Ön yüz tasarımı)
+    -JavaScript (Dinamik işlemler)
 
 
 
