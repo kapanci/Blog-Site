@@ -16,9 +16,9 @@ Bu proje, Ruby on Rails kullanılarak geliştirilmiş bir blog platformudur. Kul
     -JavaScript (Dinamik işlemler)
 
 ## Dosya Yapısı ve Açıklamalar:
-app/
+### app/
 
--Uygulamanın ana kodlarının bulunduğu dizindir.
+Uygulamanın ana kodlarının bulunduğu dizindir.
 
     controllers/:
     Kullanıcı isteklerini işleyen ve uygun yanıtları döndüren controller dosyalarını içerir.
@@ -38,47 +38,47 @@ app/
         -comments/: Yorumlarla ilgili kısmi görünümler (partial files).
         -layouts/: Uygulama genelinde kullanılan ortak şablonlar (header, footer).
         
-config/
+### config/
 
--Uygulamanın yapılandırma ayarlarını içerir.
+Uygulamanın yapılandırma ayarlarını içerir.
 
         -routes.rb: Uygulama içerisindeki URL yönlendirme ayarları.
 
-db/
+### db/
 
--Veritabanı dosyalarını ve migration (veri tabanı şema değişiklikleri) dosyalarını içerir.
-
-
-public/
-
--Statik dosyalar (örneğin, görseller) bu dizinde tutulur.
+Veritabanı dosyalarını ve migration (veri tabanı şema değişiklikleri) dosyalarını içerir.
 
 
+### public/
+
+Statik dosyalar (örneğin, görseller) bu dizinde tutulur.
 
 
-### Kurulum ve Çalıştırma
-#### Projeyi Klonlama
+
+
+## Kurulum ve Çalıştırma
+### Projeyi Klonlama
 
 Projeyi yerel makinenize klonlamak için:
 
         git clone https://github.com/kapanci/Blog-Site.git
         cd Blog-Site
 
-Bağımlılıkları Yükleme
+### Bağımlılıkları Yükleme
 
 Gerekli Ruby gem’lerini yüklemek için:
 
 
         bundle install
 
-        Veritabanını Güncelleme
+### Veritabanını Güncelleme
 
 Migration’ları çalıştırarak veritabanını oluşturun:
 
         rails db:migrate
 
 
-Uygulamayı Başlatma
+### Uygulamayı Başlatma
 
 Projenin sunucusunu başlatmak için:
 
