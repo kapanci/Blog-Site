@@ -1,7 +1,7 @@
 # Blog-Site
 Bu proje, Ruby on Rails kullanılarak geliştirilmiş bir blog platformudur. Kullanıcılar, blog yazıları oluşturabilir, düzenleyebilir, silebilir ve diğer blog yazılarına yorum yapabilir. Projede kullanıcı kimlik doğrulama ve yetkilendirme işlemleri gerçekleştirilmiştir.
 
-###Özellikler:
+## Özellikler:
 
     -Kullanıcı giriş/çıkış sistemi (Devise kullanılarak).
     -Blog gönderisi oluşturma, düzenleme, silme.
@@ -13,9 +13,8 @@ Bu proje, Ruby on Rails kullanılarak geliştirilmiş bir blog platformudur. Kul
 
 
 
-###Kurulum ve Çalıştırma
-
-    Projeyi Klonlama
+### Kurulum ve Çalıştırma
+#### Projeyi Klonlama
 
 Projeyi yerel makinenize klonlamak için:
 
